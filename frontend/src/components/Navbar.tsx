@@ -28,10 +28,10 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             {/* <Home className={`h-8 w-8 ${scrolled ? 'text-blue-600' : 'text-white'}`} /> */}
             <img
-                src="public\image\GLP logo.png"
+                src="public\image\UKI logo.png"
                 alt="Urban Keys Infra Logo"
                 // className="{`h-8 w-8 ${scrolled ? 'text-blue-600' : 'text-white'}`}"
-                className="h-8 w-8"
+                className="h-12 w-12"
               />
             <span className={`text-xl font-bold ${scrolled ? 'text-gray-900' : 'text-white'}`}>
               Urban Keys Infra

@@ -26,15 +26,16 @@ const About = () => {
         </div>
 
         {/* Core Value Propositions */}
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 text-left">
-          
-          <div className="p-8 bg-white rounded-lg border border-gray-200 shadow-sm transition-shadow hover:shadow-lg">
+        <div className="max-w-5xl mx-auto flex flex-col gap-10 text-left">
+          <div className="p-8 bg-white rounded-lg border border-gray-200 shadow-sm transition-shadow hover:shadow-lg relative">
             <h3 className="text-2xl font-semibold text-gray-800 mb-3">Backed by a Legacy of Trust</h3>
             <p className="text-lg text-gray-600">
               Urban Keys Infra is a focused venture by <strong>Urban Keys Infra</strong>, a name trusted in Jaipur's real estate market since 2005. We bring two decades of proven experience and transparency to every transaction.
             </p>
+            <span className="absolute bottom-8 right-8 text-sm font-medium text-gray-500">
+              -by Goyal Group
+            </span>
           </div>
-          
           <div className="p-8 bg-white rounded-lg border border-gray-200 shadow-sm transition-shadow hover:shadow-lg">
             <h3 className="text-2xl font-semibold text-gray-800 mb-3">Invest with Confidence</h3>
             <p className="text-lg text-gray-600">

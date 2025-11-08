@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Home, Phone, Mail, MapPin, Instagram, Linkedin} from 'lucide-react';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <img
-                src="public\image\GLP logo.png"
+                src="public\image\UKI logo.png"
                 alt="Urban Keys Infra Logo"
                 className="h-8 w-8"
               />
@@ -28,28 +28,20 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
-                className="text-gray-300 hover:text-amber-500 transition-colors"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/urbankeysinfra" // <-- ADD YOUR INSTAGRAM LINK
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-300 hover:text-amber-500 transition-colors"
               >
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/urban-keys-infra" // <-- ADD YOUR LINKEDIN LINK
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-300 hover:text-amber-500 transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-300 hover:text-amber-500 transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -109,7 +101,6 @@ const Footer = () => {
               <li>Property Management</li>
               <li>Market Analysis</li>
               <li>Investment Consulting</li>
-              <li>Relocation Services</li>
             </ul>
           </div>
 
@@ -132,7 +123,7 @@ const Footer = () => {
 
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-amber-500" />
-                <span className="text-gray-300">glpjpr@gmail.com</span>
+                <span className="text-gray-300">urbankeysinfra@gmail.com</span>
               </div>
             </div>
           </div>
@@ -158,21 +149,10 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm mb-4 sm:mb-0">
-            © 2025 GLP. All rights reserved.
+        <div className="mt-12 pt-8 border-t border-gray-800 text-center">
+          <p className="text-gray-400 text-sm">
+            © 2025 UKI. All rights reserved.
           </p>
-          <div className="flex space-x-6 text-sm text-gray-400">
-            <a href="#" className="hover:text-amber-500 transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-amber-500 transition-colors">
-              Terms of Service
-            </a>
-            <a href="#" className="hover:text-amber-500 transition-colors">
-              Cookie Policy
-            </a>
-          </div>
         </div>
       </div>
     </footer>
