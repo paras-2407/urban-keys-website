@@ -56,7 +56,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div className="mt-12 grid grid-cols-3 gap-6 max-w-3xl mx-auto">
           <div className="text-center">
             <div className="text-3xl font-bold text-amber-400">500+</div>
             <div className="text-gray-300">Homes Sold</div>
