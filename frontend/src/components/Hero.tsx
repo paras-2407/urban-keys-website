@@ -23,7 +23,9 @@ const Hero = () => {
           <div className="flex items-center space-x-1 bg-amber-500 px-3 py-1 rounded-full text-sm font-medium">
             <Star className="h-4 w-4 fill-current" />
             {/* <span>Rated #1 in the Area</span> */}
-            <span>Trusted </span>
+            <span>BUY | SELL | LEASE</span>
+            <Star className="h-4 w-4 fill-current" />
+
           </div>
         </div>
         
@@ -32,7 +34,7 @@ const Hero = () => {
           <span className="text-amber-400 block">Our Priority</span>
         </h1>
         
-        <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl mb-20 text-gray-200 max-w-2xl mx-auto leading-relaxed">
           With over 18 years of experience, we help you navigate the real estate market 
           with confidence and expertise.
         </p>

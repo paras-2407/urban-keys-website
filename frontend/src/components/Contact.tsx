@@ -282,7 +282,7 @@ const Contact = () => {
                 <Mail className="h-6 w-6 text-blue-600 mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">glpjpr@gmail.com</p>
+                  <p className="text-gray-600">urbankeysinfra@gmail.com</p>
                 </div>
               </div>
               

@@ -320,6 +320,24 @@ const PropertyDetail = () => {
               <PropertyDetailsComponent />
             </Suspense>
 
+            {property.galleryImages && property.galleryImages.length > 0 && (
+              <div className="mt-10 pt-8 border-t border-gray-200">
+                <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+                  Image Gallery
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  {property.galleryImages.map((image, index) => (
+                    <div key={index} className="overflow-hidden rounded-lg shadow-md">
+                      <img
+                        src={image}
+                        alt={`${property.title} gallery image ${index + 1}`}
+                        className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
