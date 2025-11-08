@@ -3,7 +3,7 @@ import React from 'react';
 const ShivalaVillasDetails: React.FC = () => {
   return (
     <div>
-      <h2 className="text-3xl font-bold mb-4">Shivala Villas – Exclusive Modern Living</h2>
+      <h2 className="text-3xl font-bold mb-4">Shivala Villas - Exclusive Modern Living</h2>
       <p className="mb-4 text-lg leading-relaxed">
         <strong>Shivala Villas</strong> is an exclusive gated community located just 500 meters from Ajmer Road, Jaipur, 
         offering a perfect blend of luxury and contemporary living. The project ensures a secure and upscale 
