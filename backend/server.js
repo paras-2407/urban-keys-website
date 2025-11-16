@@ -8,9 +8,10 @@ const app = express();
 const PORT = process.env.PORT || 3001; // Use port 3001 or one from environment
 
 // --- Middleware ---
-app.use(cors({
-  origin: 'https://urban-keys-client.vercel.app'
-})); // Allow requests from other origins (your React app)
+const corsOptions = {
+  origin: process.env.CLIENT_ORIGIN
+};
+app.use(cors(corsOptions)); // Use the dynamic options
 app.use(express.json()); // Allow the server to parse JSON in request bodies
 
 // --- Routes ---
@@ -55,6 +56,4 @@ app.post('/send-email', (req, res) => {
 });
 
 // --- Start the Server ---
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+module.exports = app;
