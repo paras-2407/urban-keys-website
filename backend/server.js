@@ -8,7 +8,9 @@ const app = express();
 const PORT = process.env.PORT || 3001; // Use port 3001 or one from environment
 
 // --- Middleware ---
-app.use(cors()); // Allow requests from other origins (your React app)
+app.use(cors({
+  origin: 'https://urban-keys-client.vercel.app'
+})); // Allow requests from other origins (your React app)
 app.use(express.json()); // Allow the server to parse JSON in request bodies
 
 // --- Routes ---
